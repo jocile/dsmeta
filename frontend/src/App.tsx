@@ -1,6 +1,11 @@
+import NotificationButton from "./components/NoticiationButton";
+
 function App() {
   return (
-    <h1>Hello World</h1>
+    <>
+      <h1>Hello World</h1>
+      <NotificationButton />
+    </>
   );
 }
 
