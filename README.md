@@ -31,9 +31,10 @@
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#books-references">References</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/jocile" target="_blank">Author</a> &#xa0; | &#xa0;
-  <a href="#books-references">References</a>
+  <a href="https://github.com/jocile" target="_blank">Author</a>
+  
 </p>
 
 <br>
@@ -83,18 +84,18 @@ Before starting :checkered_flag:, you need to have installed:
 
 ## :checkered_flag: Starting ##
 
-* Clone this project\
+* Clone this project:\
 `git clone https://github.com/jocile/dsmeta`
 
 ### Access Front-end
 
-1 Access the terminal\
+1 Access the terminal:\
 `cd dsmeta/frontend`
 
-2 Install dependencies\
+2 Install dependencies:\
 `yarn`
 
-3 Run the project front-end\
+3 Run the project front-end:\
 `yarn dev`
 
 > The local frontend server will initialize in the browser:\
@@ -102,10 +103,10 @@ Before starting :checkered_flag:, you need to have installed:
 
 ### Access Back-end
 
-1 Access the terminal\
-`cd catalog/backend`
+1 Access the terminal:\
+`cd dsmeta/backend`
 
-2 Run the project backend\
+2 Run the project backend:\
 `./mvnw spring-boot:run`
 
 > and in-memory H2 database will be initialized in:\
@@ -123,14 +124,6 @@ Before starting :checkered_flag:, you need to have installed:
 > The cloud backend API with the following end point filter: by minimum date and maximum date:\
 > :link: <https://dsmeta-jocile.herokuapp.com/sales?minDate=2021-02-02&maxDate=2022-04-04>
 
-
-## :memo: License ##
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
-
-
-Made with :heart: by <a href="https://github.com/jocile" target="_blank">Jocile</a>
-
 ## :books: References
 
 :link: [@devsuperior event Github](https://github.com/devsuperior/sds-dsmeta) | [Page](https://devsuperior.com.br/evento-sds) |
@@ -141,6 +134,13 @@ Made with :heart: by <a href="https://github.com/jocile" target="_blank">Jocile<
 :film_projector: [Heroku CLI](https://youtu.be/70LUh5KNaEk) \
 :film_projector: [Devsuperior course lessons](https://www.youtube.com/c/DevSuperior)\
 :link: [See the dsmeta wiki](https://github.com/jocile/dsmeta/wiki/)
+
+## :memo: License ##
+
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
+
+
+Made with :heart: by <a href="https://github.com/jocile" target="_blank">Jocile</a>
 
 &#xa0;
 
